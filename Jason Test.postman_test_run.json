@@ -1,0 +1,49 @@
+{
+	"id": "7d8090a4-0a99-4137-9f2f-1995d94afe95",
+	"name": "Jason Test",
+	"timestamp": "2021-11-11T17:01:40.519Z",
+	"collection_id": "18305291-5c578fef-fdae-4ee6-b620-8059262659ff",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a9adcb7c-9c92-40e8-8e18-ed03207bdd1f",
+			"name": "Bookings endpoint",
+			"url": "https://restful-booker.herokuapp.com/booking/1",
+			"time": 900,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"the endpoint returns the expected status code": true
+			},
+			"testPassFailCounts": {
+				"the endpoint returns the expected status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				900
+			],
+			"allTests": [
+				{
+					"the endpoint returns the expected status code": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 900,
+	"collection": {
+		"requests": [
+			{
+				"id": "a9adcb7c-9c92-40e8-8e18-ed03207bdd1f",
+				"method": "GET"
+			}
+		]
+	}
+}
